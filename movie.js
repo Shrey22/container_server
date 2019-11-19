@@ -3,7 +3,7 @@ var mysql = require("mysql")
 var movierouter = express();
 
 var connection = mysql.createConnection({
-    host : '192.168.43.253',
+    host : '192.168.44.13',
     user:'root',
     password:'manager',
     database:'mean_exam.db',
